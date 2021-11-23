@@ -35,10 +35,10 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: 700;
-    color: greenyellow;
+    color: aqua;
     text-align: center;
     text-decoration: none;
-    background: grey;
+    background:;
     line-height: 90px;
 }
 
@@ -80,8 +80,13 @@ h1,h2,h3, p {
     color: gray;
 }
 
+p {
+    text-align: justify;
+}
+
 p:last-child {
     margin-bottom: 0;
+    text-align: justify;
 }
 .image { 
     float: left;
@@ -186,17 +191,51 @@ input[type=submit] {
         }
 
 input[type=text], input[type=email], textarea {
-            height: 35px;
-            padding: 0 10px;
-            font-size: 14px;
-            border: 1px solid #ddd;
-            }
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    }
 
-            label, input[type=text], input[type=email], textarea {
-                display: block;
-                width: 100%;
-                }
+label, input[type=text], input[type=email], textarea {
+        display: block;
+        width: 100%;
+        }
 
 * {
     box-sizing: border-box;
 }
+
+
+.work {
+
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 40px;
+    overflow: auto;
+    margin-right: 19px;
+}
+
+
+.work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+    
+    }
+
+    .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+    
+    }
